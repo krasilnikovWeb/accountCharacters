@@ -122,14 +122,15 @@ export default {
     width: 100%;
   }
   &__left {
-    width: 20%;
+    position: absolute;
   }
   &__center {
-    width: 80%;
+    width: 100%;
+    justify-content: center;
+    display: inline-flex;
   }
   &__list {
-    margin: 0.5% 0 0.5% 30%;
-    display: flex;
+    display: contents;
     list-style-type: none;
     li {
       padding-left: 1%;
